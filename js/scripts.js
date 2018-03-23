@@ -7,14 +7,15 @@ $(document).ready(function () {
     var questionthree = parseInt($("#question-three").val());
     var questionfour = parseInt($("#question-four").val());
     var questionfive = parseInt($("#question-five").val());
+    var output = questionone + questiontwo + questionthree + questionfour + questionfive;
 
     $("#output").show();
-    if (...) {
-      $("#response-one").show();
-    } else if (...) {
-      $("#response-two").show();
+    if (output <=5) {
+      $("#css").show();
+    } else if (output <=10) {
+      $("#ruby").show();
     } else {
-      $("#response-three").show();
+      $("#java").show();
     }
 
   });
