@@ -1,11 +1,30 @@
 /* Navbar Header */
 #navButton {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 700;
   letter-spacing: 4px;
+  text-transform: uppercase;
   padding: 10px 30px 10px 30px;
+}
+
+#navHeaderLinks a {
+  color: grey;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: none;
+  line-height: 2em;
+  margin-right: 30px;
+}
+
+#navHeaderLinks a:hover {
+  color: lightgrey;
 }
 
 /* Header Jumbotron */
@@ -69,4 +88,20 @@
 /* Reponse Content */
 #css, #java, #ruby {
   display: none;
+}
+
+/* Footer Jumbotron */
+#footer {
+  background-color: grey;
+  background-size: cover;
+  background-position: center;
+  margin-top: 100px;
+  min-height: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+.navbar-text {
+  text-align: center;
 }

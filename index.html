@@ -11,11 +11,29 @@
   </head>
   <body>
     <!-- Begin Navbar -->
-    <nav class="navbar navbar-light bg-light justify-content-between">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">
         <img src="img/epicodus-logo.png" width="150" height="71" alt="Epicodus Logo">
       </a>
-      <button class="btn btn-info my-2 my-sm-0" id="navButton" type="button">APPLY</button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"  oninvalid=" "aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0 justify-content-end" id="navHeaderLinks">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Prospective Students</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">For Employers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">About</a>
+        </li>
+      </ul>
+      <button class="btn btn-info my-2 my-sm-0" id="navButton" type="button">Apply</button>
     </nav>
     <!-- End Navbar -->
 
@@ -106,5 +124,13 @@
       </div>
       <!-- End Response Section -->
     </div>
+
+    <!-- Begin Header Jumbotron -->
+    <nav class="navbar sticky-bottom navbar-light bg-light" id="footer">
+      <span class="navbar-text">
+        ©2018 Epicodus, Inc.
+      </span>
+    </nav>
+    <!-- End Header Jumbotron -->
   </body>
 </html>
