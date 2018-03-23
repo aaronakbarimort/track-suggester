@@ -90,6 +90,56 @@
   display: none;
 }
 
+#css h1 {
+  color: black;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 8px;
+  line-height: 50px;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#ruby h1 {
+  color: black;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 8px;
+  line-height: 50px;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#java h1 {
+  color: black;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 8px;
+  line-height: 50px;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.lead {
+  font-size: 18px;
+  font-weight: bold;
+}
+
 /* Footer Jumbotron */
 #footer {
   background-color: grey;
