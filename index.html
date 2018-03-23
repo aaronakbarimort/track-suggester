@@ -9,17 +9,31 @@
     <title>Track Suggester | Epicodus</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Epicodus | Courses</h1>
-      <h4>If you're interested in attending Epicodus, one of the big questions you may be asking yourself is which language track should I take?</h4>
-      <p>The first thing you should decide on is if you want to focus more on front-end or back-end development.</p>
-      <p>It's common to not be sure which path is right for you. Don't stress! We've created a handy course <span class="bold-text">Track Suggester</span> to help guide you towards the best path for you. Try it out below:</p>
+    <!-- Begin Navbar -->
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="img/epicodus-logo.png" width="150" height="71" alt="Epicodus Logo">
+      </a>
+    </nav>
+    <!-- End Navbar -->
 
+    <!-- Begin Header Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1>Epicodus | Courses</h1>
+        <h4>If you're interested in attending Epicodus, one of the big questions you may be asking yourself is which language track should I take?</h4>
+        <p class="lead">The first thing you should decide on is if you want to focus more on front-end or back-end development.</p>
+        <p>It's common to not be sure which path is right for you. Don't stress! We've created a handy course <span class="bold-text">Track Suggester</span> to help guide you towards the best path for you. Try it out below:</p>
+      </div>
+    </div>
+    <!-- End Header Jumbotron -->
+
+    <div class="container">
       <!-- Begin Track Suggestor Form -->
-      <form id="track-suggester">
+      <form id="trackSuggester">
         <div class="form-group">
           <label for="userName">Name:</label>
-          <input type="text" class="form-control" id="userName" placeholder="Please enter your full name.">
+          <input type="text" class="form-control" id="userName" placeholder="Please enter your full name." required>
         </div>
         <div class="form-group">
           <label for="questionOne">Generally, how comfortable with design are you?</label>

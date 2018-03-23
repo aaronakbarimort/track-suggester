@@ -1,6 +1,7 @@
 $(document).ready(function () {
-  $("form#track-suggester").submit(function(event) {
+  $("form#trackSuggester").submit(function(event) {
     event.preventDefault();
+
     var userName = $("#userName").val();
     var questionOne = parseInt($("#questionOne").val());
     var questionTwo = parseInt($("#questionTwo").val());
