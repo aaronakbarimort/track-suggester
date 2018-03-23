@@ -18,5 +18,8 @@ $(document).ready(function () {
       $("#java").show();
     }
 
+    $("#clear").click(function() {
+      location.reload();
+    });
   });
 });
