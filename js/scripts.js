@@ -1,22 +1,24 @@
 $(document).ready(function () {
   $("form#track-suggester").submit(function(event) {
     event.preventDefault();
-
-    var questionone = parseInt($("#question-one").val());
-    var questiontwo = parseInt($("#question-two").val());
-    var questionthree = parseInt($("#question-three").val());
-    var questionfour = parseInt($("#question-four").val());
-    var questionfive = parseInt($("#question-five").val());
-    var output = questionone + questiontwo + questionthree + questionfour + questionfive;
+    var userName = $("#userName").val();
+    var questionOne = parseInt($("#questionOne").val());
+    var questionTwo = parseInt($("#questionTwo").val());
+    var questionThree = parseInt($("#questionThree").val());
+    var questionFour = parseInt($("#questionFour").val());
+    var questionFive = parseInt($("#questionFive").val());
+    var output = questionOne + questionTwo + questionThree + questionFour + questionFive;
 
     $("#output").show();
     if (output <=5) {
-      $("#css").show();
+      $("#css").slideDown();
     } else if (output <=10) {
-      $("#ruby").show();
+      $("#ruby").slideDown();
     } else {
-      $("#java").show();
+      $("#java").slideDown();
     }
+
+    $(".userName").text(userName);
 
     $("#clear").click(function() {
       location.reload();

@@ -18,40 +18,44 @@
       <!-- Begin Track Suggestor Form -->
       <form id="track-suggester">
         <div class="form-group">
-          <label for="question-one">Generally, how comfortable with design are you?</label>
-          <select class="form-control" id="question-one">
+          <label for="userName">Name:</label>
+          <input type="text" class="form-control" id="userName" placeholder="Please enter your full name.">
+        </div>
+        <div class="form-group">
+          <label for="questionOne">Generally, how comfortable with design are you?</label>
+          <select class="form-control" id="questionOne">
             <option value="1">I'm a design nerd.</option>
             <option value="2">I'm a novice with design but appreciate its value.</option>
             <option value="3">Design? I don't care about no stinking design.</option>
           </select>
         </div>
         <div class="form-group">
-          <label for="question-two">Where do you see yourself working after attending Epicodus?</label>
-          <select class="form-control" id="question-two">
+          <label for="questionTwo">Where do you see yourself working after attending Epicodus?</label>
+          <select class="form-control" id="questionTwo">
             <option value="1">Working with a small creative team or as a freelancer.</option>
             <option value="2">A fast-paced environment at a medium to small startup?</option>
             <option value="3">A large, estabished business or corporation.</option>
           </select>
         </div>
         <div class="form-group">
-          <label for="question-three">How much experience do you have with coding/programming?</label>
-          <select class="form-control" id="question-three">
+          <label for="questionThree">How much experience do you have with coding/programming?</label>
+          <select class="form-control" id="questionThree">
             <option value="1">None or Very Little</option>
             <option value="2">I've learned things here and there over the years.</option>
             <option value="3">I'm comfortable with the basics and have at least some experience with a more advanced programming language(s).</option>
           </select>
         </div>
         <div class="form-group">
-          <label for="question-four">What type of work environment sounds best to you?</label>
-          <select class="form-control" id="question-four">
+          <label for="questionFour">What type of work environment sounds best to you?</label>
+          <select class="form-control" id="questionFour">
             <option value="1">Smaller teams that generally focus on creative projects.</option>
             <option value="2">Medium sized team in a more professional environment.</option>
             <option value="3">Large corporate environment with lots of moving parts.</option>
           </select>
         </div>
         <div class="form-group">
-          <label for="question-five">Which scenario sounds best to you?</label>
-          <select class="form-control" id="question-five">
+          <label for="questionFive">Which scenario sounds best to you?</label>
+          <select class="form-control" id="questionFive">
             <option value="1">Beers after, and maybe, one here and there at work.</option>
             <option value="2">Headphones on, focused on your tasks for the day.</option>
             <option value="3">Holy shit, that deadline is today?! </option>
@@ -71,17 +75,17 @@
       <!-- Begin Response Section -->
       <div id="css">
         <h1>CSS / REACT</h1>
-        <h4>It looks like you might be a great candidate for the CSS/React course path!</h4>
+        <h4><span class="userName"></span>, it looks like you might be a great candidate for the CSS/React course path!</h4>
         <p>Front-end developers spend their time making things look and work well, obsessing over layouts, navigation, colors, and design. If this type of work appeals to you, your best bet is to take CSS and Design classes at Epicodus.</p>
       </div>
       <div id="ruby">
         <h1>RUBY / RAILS</h1>
-        <h4>It looks like you might be a great candidate for the Ruby/Rails course path!</h4>
+        <h4><span class="userName"></span>, it looks like you might be a great candidate for the Ruby/Rails course path!</h4>
         <p>Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.</p>
       </div>
       <div id="java">
         <h1>JAVA / ANDRIOD</h1>
-        <h4>It looks like you might be a great candidate for the JAVA/Android course path!</h4>
+        <h4><span class="userName"></span>, it looks like you might be a great candidate for the JAVA/Android course path!</h4>
         <p>Java is a favorite of enterprise companies, but its appeal is broader as well: it's one of the most popular of all programming languages, and it's used in everything from for high-performance processing to building Android user interfaces. Because Java has been very popular for a very long time and is used in so many applications, it is also a very high-demand language. If you're interested in working for an enterprise-level company, as an Android developer, or in high-performance applications, Java could be a good language to learn.</p>
       </div>
       <!-- End Response Section -->
