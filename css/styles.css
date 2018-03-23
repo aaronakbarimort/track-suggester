@@ -1,11 +1,19 @@
-/* Paragraph Span Elements */
+/* Header Jumbotron */
+.jumbotron.jumbotron-fluid.header {
+  background-image: url(../img/epicodus-bkgrnd.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  height: 100%;
+  overflow: hidden;
+}
 
+/* Paragraph Span Elements */
 .bold-text {
   font-weight: bold;
 }
 
 /* Reponse Content */
-
 #css, #java, #ruby {
   display: none;
 }
