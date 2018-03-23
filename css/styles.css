@@ -1,3 +1,13 @@
+/* Navbar Header */
+#navButton {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 4px;
+  padding: 10px 30px 10px 30px;
+}
+
 /* Header Jumbotron */
 .jumbotron.jumbotron-fluid.header {
   background-image: url(../img/epicodus-bkgrnd.jpg);
