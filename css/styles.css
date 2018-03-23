@@ -3,3 +3,9 @@
 .bold-text {
   font-weight: bold;
 }
+
+/* Reponse Content */
+
+.response {
+  display: none;
+}
